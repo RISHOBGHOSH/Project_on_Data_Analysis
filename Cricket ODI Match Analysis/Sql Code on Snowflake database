@@ -1,0 +1,111 @@
+CREATE DATABASE "CRICKET_ODI_ASSIGMENT1";
+USE "CRICKET_ODI_ASSIGMENT1";
+SELECT * FROM "CRICKET_ODI_ASSIGMENT1"."PUBLIC"."BATSMEN_DATA1"
+
+CREATE OR REPLACE TABLE Batsmen_Data1(
+Bat1 varchar(45),
+Runs number(38,2),
+BF number(38,0),
+SR varchar(45),
+FOUR_4 int,
+SIX_6 int,
+Opposition varchar(45),
+Ground varchar(45),
+Start_Date DATE,
+MatchID varchar(45),
+Batsman varchar(45),
+Player_ID NUMBER(38,0) 
+);
+
+DROP TABLE Batsmen_Data1;
+
+SELECT * FROM BATSMEN_DATA1;
+
+SELECT COUNT(*) FROM BATSMEN_DATA1;
+
+SELECT * FROM BATSMEN_DATA1 WHERE BAT1 = '0';
+
+DELETE FROM BATSMEN_DATA1 WHERE BAT1 = '0' ;
+
+SELECT * FROM BATSMEN_DATA1 WHERE BAT1 = '0*';
+
+DELETE FROM BATSMEN_DATA1 WHERE BAT1 = '0*' ;
+
+SELECT * FROM BATSMEN_DATA1 WHERE RUNS = '-';
+
+DELETE FROM BATSMEN_DATA1 WHERE RUNS = '-' ;
+
+SELECT * FROM BATSMEN_DATA1 WHERE SR = '-';
+
+DELETE FROM BATSMEN_DATA1 WHERE SR = '-' ;
+
+SELECT * FROM BATSMEN_DATA1 WHERE BAT1 = '0*';
+
+SELECT * FROM BATSMEN_DATA1 WHERE BAT1 = 'DNB';
+
+CREATE OR REPLACE TABLE BOWLER_Data1(
+Overs decimal (38, 0 ) not null,
+Mdns decimal (38, 0 ) not null,
+Runs decimal (38, 0 ) not null,
+Wkts decimal (38, 0 ) not null,
+econ decimal (38, 0 ) not null ,
+Ave decimal (38, 0 ) not null ,
+SR decimal (38, 0 ) not null,
+opposition varchar(45),
+Ground varchar(45),
+Start_Date DATE,
+MatchID varchar(45),
+Bowler varchar(45),
+Player_ID INTEGER 
+);
+
+SELECT * FROM BOWLER_Data1;
+
+SELECT COUNT(*) FROM BOWLER_Data1;
+
+DELETE FROM BOWLER_Data1 WHERE Overs = '-' ;
+
+SELECT * FROM BOWLER_Data1 WHERE Overs = '-';
+
+DELETE FROM BOWLER_Data1 WHERE Mdns = '-';
+
+SELECT * FROM BOWLER_Data1 WHERE Mdns = '-';
+
+DESC BOWLER_Data1;
+
+drop table odi_match;
+
+CREATE OR REPLACE TABLE odi_match(
+Result varchar(45),
+Margin varchar(45),
+Toss varchar(45),
+Bat varchar(45),
+Opposition varchar(45),
+Ground varchar(45),
+Start_Date date,
+Match_ID string,
+Country varchar(45),
+Country_ID varchar(45)
+);
+
+select * from odi_match;
+
+select count(*) from odi_match ;
+
+SELECT * FROM odi_match WHERE Result = '-';
+
+DELETE FROM odi_match WHERE Result = '-' ;
+
+SELECT * FROM odi_match WHERE Result = 'aban';
+
+DELETE FROM odi_match WHERE Result = 'aban' ;
+
+SELECT * FROM odi_match WHERE Result = 'n/r';
+
+delete FROM odi_match WHERE Result = 'n/r';
+
+SELECT * FROM odi_match WHERE Result = 'canc';
+
+delete FROM odi_match WHERE Result = 'canc';
+
+ALTER TABLE odi_match ADD COLUMN STARTDATE DATE;
