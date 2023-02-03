@@ -1,7 +1,7 @@
 # Project_Data_Analysis
 This Folder is carrying the projects on Data Analysis Filed
 
-Some Sceenshorts of the Dashboard for Cricket ODI Match
+Some Sceenshorts of the Dashboard for Cricket ODI Match USing Tool Power BI
 
 ![batsman analysis](https://user-images.githubusercontent.com/110725893/216618804-8109e516-796f-4efc-a8f8-a957f280d0ed.JPG)
 
