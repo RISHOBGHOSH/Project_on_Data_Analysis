@@ -1,5 +1,9 @@
 # Project_Data_Analysis
-This Folder is carrying the projects on Data Analysis Filed
+This folder contains two data analysis projects, showcasing my expertise in using data to uncover insights and create meaningful visualizations. 
+
+- The first project is a comprehensive EDA of the Netflix dataset, utilizing my skills in data manipulation and visualization to uncover trends and patterns. 
+
+- The second project is a detailed analysis of Cricket ODI matches using Power BI, resulting in an interactive dashboard highlighting key insights and performance metrics. These projects demonstrate my ability to effectively use data to drive business decisions and communicate insights to stakeholders.
 
 Netflix_Data_EDA
 
