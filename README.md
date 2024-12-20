@@ -24,6 +24,9 @@ Dashboard for Cricket ODI Match (Power-BI)
 
 Some Sceenshorts of the Dashboard for Cricket ODI Match Uing Tool Power BI
 
+![batsman analysis](![image](https://github.com/user-attachments/assets/0a1d5488-cfff-4d61-84a2-6781af12cb15))
+
+
 ![batsman analysis](https://user-images.githubusercontent.com/110725893/216618804-8109e516-796f-4efc-a8f8-a957f280d0ed.JPG)
 
 ![bowler insights](https://user-images.githubusercontent.com/110725893/216618869-6e34cc71-6b99-45fc-b0d7-070f3242222b.JPG)
