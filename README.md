@@ -24,8 +24,7 @@ Dashboard for Cricket ODI Match (Power-BI)
 
 Some Sceenshorts of the Dashboard for Cricket ODI Match Uing Tool Power BI
 
-![batsman analysis](![image](https://github.com/user-attachments/assets/0a1d5488-cfff-4d61-84a2-6781af12cb15))
-
+![Credit_Card_dashboard analysis](https://github.com/RISHOBGHOSH/Project_on_Data_Analysis/blob/main/Credit%20Card%20Financial%20Dashboard/Credit_card_dashboard.png)
 
 ![batsman analysis](https://user-images.githubusercontent.com/110725893/216618804-8109e516-796f-4efc-a8f8-a957f280d0ed.JPG)
 
